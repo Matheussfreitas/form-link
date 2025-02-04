@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export REPOPATH=/home/bolt360/repositories/form-link-ssh
+    - export DEPLOYPATH=/home/bolt360/public_html
+    - /bin/cp -r $REPOPATH/* $DEPLOYPATH
+
